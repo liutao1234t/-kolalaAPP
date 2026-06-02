@@ -1,0 +1,203 @@
+{
+  "appCore": {
+    "appName": "Kolala",
+    "theme": "cheer_dance_community",
+    "mainScene": "trend_feed",
+    "defaultLanguage": "en-US"
+  },
+  "uiTheme": {
+    "background": "deep_navy",
+    "titleGradient": [
+      "pink",
+      "sky_blue"
+    ],
+    "mainAccent": "soft_pink",
+    "glowAccent": "magenta"
+  },
+  "topHeader": {
+    "brandText": "renjiziduan",
+    "searchEnabled": true,
+    "bellEnabled": true,
+    "statusBarStyle": "light"
+  },
+  "feedTabs": {
+    "active": "Trending",
+    "items": [
+      "Trending",
+      "For You"
+    ],
+    "indicatorColor": "pink",
+    "largeTitleStyle": true
+  },
+  "trendGrid": {
+    "columns": 2,
+    "cardGap": 16,
+    "rowGap": 24,
+    "scrollMode": "vertical"
+  },
+  "danceCardStyle": {
+    "cornerRadius": 26,
+    "showPlayButton": true,
+    "showHeatBadge": true,
+    "darkCardBase": true
+  },
+  "trendCardOne": {
+    "danceId": "cheer_summer_lift_001",
+    "title": "Less is more",
+    "creator": "@sunny_may",
+    "heatText": "1.8w",
+    "coverImage": "cheer_stadium_lift"
+  },
+  "trendCardTwo": {
+    "danceId": "cheer_red_team_002",
+    "title": "Less is more",
+    "creator": "@Sunny_may",
+    "heatText": "1.8w",
+    "coverImage": "red_squad_pose"
+  },
+  "trendCardThree": {
+    "danceId": "cheer_blue_stage_003",
+    "title": "Less is more",
+    "creator": "@sunny_may",
+    "heatText": "1.8w",
+    "coverImage": "blue_stage_team"
+  },
+  "trendCardFour": {
+    "danceId": "cheer_pink_field_004",
+    "title": "Less is more",
+    "creator": "@sunny_may",
+    "heatText": "1.8w",
+    "coverImage": "pink_field_team"
+  },
+  "playOverlay": {
+    "icon": "play_triangle",
+    "buttonShape": "circle",
+    "buttonAlpha": 0.72,
+    "centered": true
+  },
+  "heatBadge": {
+    "icon": "fire",
+    "position": "top_right",
+    "textColor": "white",
+    "background": "dark_blur"
+  },
+  "creatorRow": {
+    "avatarShape": "circle",
+    "avatarBorder": "pink_blue_ring",
+    "nameStyle": "bold_white",
+    "showVerifiedMark": false
+  },
+  "challengeBanner": {
+    "title": "The challenge Awaits!",
+    "bodyText": "Join the summer cheer series and climb the leaderboard to win squad gear.",
+    "buttonText": "Join Now",
+    "icon": "trophy_shadow"
+  },
+  "challengeRules": {
+    "eventName": "Summer Cheer Series",
+    "entryMode": "tap_to_join",
+    "goalType": "dance_upload",
+    "rewardName": "squad_gear"
+  },
+  "challengeProgress": {
+    "joined": false,
+    "currentScore": 0,
+    "targetScore": 1000,
+    "rankVisible": true
+  },
+  "leaderboard": {
+    "enabled": true,
+    "sortBy": "heat_score",
+    "seasonName": "Summer Cheer",
+    "showFriendsOnly": false
+  },
+  "searchConfig": {
+    "enabled": true,
+    "placeholder": "Search cheer dances",
+    "hotWords": [
+      "summer cheer",
+      "team lift",
+      "pom dance"
+    ]
+  },
+  "bellCenter": {
+    "unreadCount": 3,
+    "danceAlert": true,
+    "challengeAlert": true,
+    "messageAlert": false
+  },
+  "createButton": {
+    "centerTab": true,
+    "icon": "plus",
+    "size": 66,
+    "glowEnabled": true
+  },
+  "createFlow": {
+    "entryAction": "open_create_page",
+    "allowVideoUpload": true,
+    "allowCoverSelect": true,
+    "maxVideoSeconds": 30
+  },
+  "danceCategories": {
+    "items": [
+      "pom",
+      "stunt",
+      "sideline",
+      "dance",
+      "warmup"
+    ],
+    "defaultCategory": "dance",
+    "allowMultiSelect": true
+  },
+  "recommendationRules": {
+    "mode": "interest_based",
+    "dailyItemCount": 20,
+    "newCreatorRatio": 0.3,
+    "teamDanceWeight": 0.5
+  },
+  "bottomTabs": {
+    "active": "Home",
+    "items": [
+      "Home",
+      "Challenge",
+      "Create",
+      "Community",
+      "Profile"
+    ],
+    "centerItem": "Create"
+  },
+  "communityPage": {
+    "enabled": true,
+    "defaultSection": "Team Talk",
+    "showDancePosts": true,
+    "showCreatorCards": true
+  },
+  "profilePage": {
+    "savedDances": 18,
+    "createdDances": 7,
+    "followers": 1250,
+    "following": 88
+  },
+  "saveState": {
+    "currentDanceSaved": false,
+    "folderName": "Cheer Favorites",
+    "maxSavedCount": 500
+  },
+  "shareSettings": {
+    "enabled": true,
+    "shareTitle": "Watch this cheer dance",
+    "shareCoverEnabled": true
+  },
+  "displaySettings": {
+    "largeText": false,
+    "motionAnimation": true,
+    "hapticFeedback": true,
+    "imagePreload": true
+  },
+  "sessionState": {
+    "lastOpenTab": "Home",
+    "lastFeedTab": "Trending",
+    "lastViewedDanceId": "cheer_summer_lift_001",
+    "sessionPlayCount": 5
+  }
+}
