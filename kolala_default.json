@@ -15,7 +15,7 @@
     "glowAccent": "magenta"
   },
   "topHeader": {
-    "brandText": "renjiziduan",
+    "brandText": "renjiziduan-no",
     "searchEnabled": true,
     "bellEnabled": true,
     "statusBarStyle": "light"
